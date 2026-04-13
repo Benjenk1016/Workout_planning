@@ -1,0 +1,67 @@
+body{
+    color: #FFF8F0; 
+    margin:0;
+}
+nav {
+    background-color: #2C2C2A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 2%;
+    padding: 10px; 
+}
+#nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#headerLink{
+    color : white;
+}
+#welcome_section {
+    text-align: center;
+    background-image: url("images/Home_banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.workout-tile{
+    width: 32em;
+    height: 15em;
+    background: #BA7517;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    margin-bottom : 1em;
+    
+
+}
+.workout-Title{
+    margin : 0; 
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: #2C2C2A;
+    color: #D85A30;
+    text-align: center;
+    padding: 20px;
+    margin-top: 3em;
+}
